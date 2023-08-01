@@ -7,7 +7,7 @@
 
 /*clear fix hack*/
 
-.clearfix:after{
+.clearfix:after{ /* this put a dot invisible after, "." stops containers from collapsing by using floats */
     content: ".";
     display:block;
     clear:both;

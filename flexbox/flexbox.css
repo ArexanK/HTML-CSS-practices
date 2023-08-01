@@ -1,0 +1,16 @@
+
+header, footer{
+    height:100px;
+    border:2px solid black;
+
+}
+
+main, .bottom{
+    display: flex;
+}
+
+section{
+    flex:1; /* take 1 space each */
+    height:200px;
+    border:1px solid black;
+}
